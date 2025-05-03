@@ -1,0 +1,4 @@
+VenvForDjango/
+db.sqlite3
+first_site/first_app/__pycache__/
+first_site/first_site/__pycache__/
