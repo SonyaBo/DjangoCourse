@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpRequest
 
 def main(request: HttpRequest) -> HttpResponse:
-    return HttpResponse("Hey! It's your main view!!")
+    var = "Something"
+    return render(request,'index.html',{"str":var})
 
 
 def another(request: HttpRequest) -> HttpResponse:
